@@ -1,3 +1,5 @@
+console.log("Hello World");
+
 var todoList = {
     todos: [],
     addTodo: function(todoText) {
