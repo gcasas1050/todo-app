@@ -4,11 +4,26 @@
     <link rel="stylesheet" href="./styles/style.css">
   </head>
 
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color:lightblue;
+      font-family: 'Amatic SC', cursive;
+      font-size: 40px;
+      margin-top: 50px;
+      margin-right: 500px;
+       margin-left: 650px;
+      width: 800px;
+      padding: 100px;
+    }
+  </style>
+
   <body>
     <h1>Todo List</h1>
     
     <div>
-      <button onclick="handlers.toggleAll()">Toggle All</button>
+      <button onclick="handlers.toggleAll()">Complete All</button>
      </div>
     
      <div> 
@@ -17,13 +32,13 @@
      </div>
     
      <div>
-       <button onclick="handlers.changeTodo()">Change Todo</button>
+       <button onclick="handlers.changeTodo()">Change</button>
        <input id="changeTodoPositionInput" type="number">
        <input id="changeTodoTextInput" type="text">
      </div>
     
      <div>
-       <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+       <button onclick="handlers.toggleCompleted()">Completed</button>
        <input id="toggleCompletedPositionInput" type="number">
      </div>
     
